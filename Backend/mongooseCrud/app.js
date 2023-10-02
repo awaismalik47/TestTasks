@@ -64,7 +64,7 @@ app.delete("/deletePoints", async (req, res) => {
 
 
 
-const port=6600;
+const port=3300;
 app.listen(port,()=>{
   console.log("server listening on ",port);
 });
